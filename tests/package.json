@@ -9,9 +9,13 @@
     "dat-node": "^3.5.11",
     "fs-jetpack": "^2.0.0",
     "random-access-memory": "^2.4.0",
-    "tempy": "^0.2.0"
+    "tempy": "^0.2.0",
+    "snyk": "^1.316.1"
   },
   "scripts": {
-    "test": "set -e; for i in *-test.js; do ava -s \"$i\"; sleep 3; done"
-  }
+    "test": "set -e; for i in *-test.js; do ava -s \"$i\"; sleep 3; done",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
