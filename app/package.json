@@ -46,7 +46,7 @@
     "hyperdrive": "^9.14.0",
     "hyperdrive-staging-area": "^2.4.0",
     "hyperdrive-to-zip-stream": "^2.0.0",
-    "icojs": "^0.11.0",
+    "icojs": "^0.15.0",
     "identify-filetype": "^1.0.0",
     "ingestdb": "^2.4.7",
     "into-stream": "^3.1.0",
