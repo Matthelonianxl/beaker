@@ -6,7 +6,7 @@
   "optionalDependencies": {},
   "dependencies": {
     "ava": "^0.23.0",
-    "dat-node": "^3.5.11",
+    "dat-node": "^4.0.1",
     "fs-jetpack": "^2.0.0",
     "random-access-memory": "^2.4.0",
     "tempy": "^0.2.0"
